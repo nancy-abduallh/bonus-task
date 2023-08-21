@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <style>
+        body{
+            /* background-image: url(background\ images/welcome2.jpeg); */
+            text-align: center;
+            text-transform: capitalize;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size: 60px;
+            text-align: center;
+            color: brown;
+            text-shadow: 4px 0px 5px red;
+;
+        }
+        h2{
+            font-size: 40px;
+            color: rgb(143, 72, 98);
+            text-shadow: 4px 0px 5px red;
+
+        }
+        button{
+            font-size: 50px;
+            border-radius: 20px;
+            padding: 2px 2px;
+            border-color: bisque;
+        }
+        a{
+            text-decoration: none;
+            color: brown;
+        }
+        #background-video {
+             width: 100vw;
+             height: 100vh;
+             object-fit: cover;
+             position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+          bottom: 0;
+             z-index: -1;
+          }
+    </style>
+</head>
+<body>
+    <h1>welcome</h1>
+    <h2>nancy</h2>
+    <!-- <img src="background images/welcome.jpeg" alt="welcome" width="500px" height="200px" > -->
+    <br>
+    <audio controls autoplay>
+        <source src="audio/Female Voice - Welcome Sound ! Notification.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+</audio>
+    <br>
+    <br>
+    <button><a href="home.html">Home</a></button>
+    
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="background images/stock-footage-welcome-animation-animated-glowing-neon-text-with-purple-background-and-ink-drop-effect-perfect.webm" 
+        type="video/mp4">
+        </video>
+</body>
+</html>
